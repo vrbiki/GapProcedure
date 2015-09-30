@@ -1,15 +1,5 @@
----
-output:
-  md_document:
-    variant: markdown_github
----
+## The Gap Procedure
+# For the identification of phylogenetic clusters in HIV-1 sequence data
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+The Gap Procedure is a distance-based clustering algorithm.  This package is maintained by [Irene Vrbik](http://www.math.mcgill.ca/ivrbik/).  For an online version so the vignette [Click here](http://www.math.mcgill.ca/ivrbik/vignette.html).
 
-```{r, echo = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "README-"
-)
-```
