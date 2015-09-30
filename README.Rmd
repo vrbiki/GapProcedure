@@ -1,5 +1,25 @@
-## The Gap Procedure
-# For the identification of phylogenetic clusters in HIV-1 sequence data
+---
+output: html_document
+---
+## The Gap Procedure:For the identification of phylogenetic clusters in HIV-1 sequence data
 
-The Gap Procedure is a distance-based clustering algorithm.  This package is maintained by [Irene Vrbik](http://www.math.mcgill.ca/ivrbik/).  For an online version so the vignette [Click here](http://www.math.mcgill.ca/ivrbik/vignette.html).
+The Gap Procedure is a distance-based clustering algorithm that can be used for finding distinct groups of genetically similar DNA sequences. In the literature involving HIV, clusters are typically ascertained on the basis of high clade support values on a phylogenetic tree. The Gap Procedure bypasses the need for estimating  phylogenetic trees thereby dramatically decreasing computational burden. The only input required by this algorithm is an aligned set of DNA sequences.  A quick 
+
+```{r}
+library(ape)
+library(GapProcedure)
+data(simulation)
+(x <- as.DNAbin(as.alignment(as.matrix(simulation[,-1]))))
+GP <- GapProcedure(x)
+GP$classification
+```
+
+This package can be downloaded by typing the following command in R 
+```{r, eval=FALSE}
+library(devtools)
+devtools::install_github("vrbiki/GapProcedure")
+```
+
+
+This package is maintained by [Irene Vrbik](http://www.math.mcgill.ca/ivrbik/).  For an online version of the vignette [Click here](http://www.math.mcgill.ca/ivrbik/vignette.html).  Please report any issues [here](https://github.com/vrbiki/GapProcedure/issues).
 
