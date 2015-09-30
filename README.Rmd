@@ -1,6 +1,4 @@
----
-output: html_document
----
+
 ## The Gap Procedure:For the identification of phylogenetic clusters in HIV-1 sequence data
 
 The Gap Procedure is a distance-based clustering algorithm that can be used for finding distinct groups of genetically similar DNA sequences. In the literature involving HIV, clusters are typically ascertained on the basis of high clade support values on a phylogenetic tree. The Gap Procedure bypasses the need for estimating  phylogenetic trees thereby dramatically decreasing computational burden. The only input required by this algorithm is an aligned set of DNA sequences.  A quick 
