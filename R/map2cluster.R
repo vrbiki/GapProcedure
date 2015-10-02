@@ -15,8 +15,8 @@
 #' (prob.matrix2 <- sweep(ex.matrix2,2,colSums(ex.matrix2),"/"))
 #'
 #' # in the presence of a tie, sequences are assigned to the largest cluster
-#' (map2cluster(prob.matrix2), random=TRUE)
-#' (map2cluster(prob.matrix2), random=TRUE)
+#' (map2cluster(prob.matrix2, random=TRUE))
+#' (map2cluster(prob.matrix2, random=TRUE))
 
 map2cluster <- function(z,warn=TRUE, random=FALSE){
   nobs <- ncol(z)

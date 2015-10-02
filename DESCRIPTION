@@ -4,9 +4,9 @@ Title: Finds clusters of genetically similar DNA sequences using the Gap Procedu
 Version: 0.0.0.9000
 Date: 2015-08-31
 Authors@R: c(
-    person("Irene", "Vrbik", email = "irene.vrbik@mcgill.ca", role = c("aut", "cre")),
+    person("Irene", "Vrbik", email = "vrbiki@gmail.com", role = c("aut", "cre")),
     person("David A.", "Stephens", email = "d.stephens@math.mcgill.ca", role = "aut"))
-Maintainer: Irene Vrbik <irene.vrbik@mcgill.ca>
+Maintainer: Irene Vrbik <vrbiki@gmail.com>
 Description: The Gap Procedure is a distance-based clustering algorithm for finding distinct groups among DNA sequence data.  Clusters are ascertained on the basis of gaps in sorted pairwise distances. 
 License: GPL (>=2)
 LazyData: TRUE
