@@ -12,11 +12,18 @@ GP <- GapProcedure(x)
 GP$classification
 ```
 
-This package can be downloaded by typing the following command in R 
+Windows users will have to download the zip file [here](http://www.math.mcgill.ca/ivrbik/software.html) and type the following command in R
+```{r}
+  install.packages("path/to/file/GapProcedure_0.0.0.9000.zip",repos=NULL,type="source")
+```
+
+
+If using a Linux or Mac, this package can be downloaded directly from github using the devltools package:
 ```{r, eval=FALSE}
 library(devtools)
 devtools::install_github("vrbiki/GapProcedure")
 ```
+
 
 
 This package is maintained by [Irene Vrbik](http://www.math.mcgill.ca/ivrbik/).  For an online version of the vignette [Click here](http://www.math.mcgill.ca/ivrbik/vignette.html).  Please report any issues [here](https://github.com/vrbiki/GapProcedure/issues).
